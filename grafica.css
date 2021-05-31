@@ -1,0 +1,245 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Exo:700');
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: purple;
+    overflow: auto;
+}
+
+/* Set a style for all buttons */
+button {
+  position: absolute;
+  background-color: black;
+  color: purple;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-style: solid;
+  border-color: purple;
+  border-width: 3px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input:hover{
+    opacity: 0.8;
+}
+
+h2{
+    text-align: center;
+    font-size: 200%;
+}
+
+#titolo{
+    margin: auto;
+    width: 99.8%;
+    height: 10%;
+    top: 1%;
+    margin-bottom: 3%;
+    background-color: black;
+    border-style: solid;
+    border-color: purple;
+    border-width: 3px;
+    color: purple;
+}
+
+.research{
+    background-color: black;
+    position:absolute;
+    left: 5%; 
+    top: 4%;
+}
+
+.logBtn{
+    position: absolute;
+    width:20%;
+    top: 4%;
+    right: 15%;;
+}
+
+.registerBtn{
+    position: absolute;
+    width:20%;
+    top: 4%;
+    right: 3%;;
+}
+
+
+
+#serietv{
+    position: absolute;
+    margin: auto;
+    top: 18%;
+    height: 40%;
+    background-color: black;
+}
+
+#film{
+    position: absolute;
+    margin: auto;
+    top:60%;
+    height: 40%;
+    background-color: black;
+}
+
+.serietv{
+    display: flex;
+    overflow: auto;
+    height:60%;
+    width: 100%;
+    
+}
+
+.film{
+    display: flex;
+    overflow: auto;
+    height:60%;
+    width: 100%;
+    
+}
+
+.copertina{
+    position: relative;
+    border: solid 3px purple;
+    width: 40%;
+    height: 100%;
+    
+}
+
+img{ 
+    margin: 0 40%;
+    max-width:100%;
+    max-height:100%;
+}
+
+.descrizione{
+    position: absolute;
+    width: 33.3%;
+    height: 100%;
+    left: 33.3%;
+}
+
+.vendita{
+    float:right;
+    text-align:center;
+    width:33.3%;
+    height: 100%;
+}
+
+.hideButton{
+    width: 14%;
+    right: 9.5%;
+}
+
+#divForm{
+    margin-left: 35%;
+    height: 95%;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: purple;
+}
+
+input[type=text] {
+    background-color: black;
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid purple;
+    transition: 0.5s;
+    outline: none;
+    color: purple;
+
+}
+
+input[type=text]:focus {
+    border: 2px solid purple;
+}
+
+input[type=password] {
+    background-color: black;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid purple;
+    transition: 0.5s;
+    outline: none;
+    color: purple;
+
+}
+
+input[type=password]:focus {
+    border: 2px solid purple;
+}
+
+input[type=email] {
+    background-color: black;
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid purple;
+    transition: 0.5s;
+    outline: none;
+    color: purple;
+
+}
+
+input[type=email]:focus {
+    border: 2px solid purple;
+}
+
+input[type=submit] {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid purple;
+    border-radius: 4px;
+    transition: 0.5s;
+    outline: none;
+    background-color: black;
+    color: purple;
+}
+
+#bottone{
+    position: absolute;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid purple;
+    border-radius: 4px;
+    transition: 0.5s;
+    outline: none;
+    background-color: black;
+    color: purple;
+}
+
+#back{
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid crimson;
+    border-radius: 4px;
+    transition: 0.5s;
+    outline: none;
+    background-color: red;
+    color: black;
+}
